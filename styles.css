@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("src/font/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("src/font/Poppins-Medium.ttf") format("truetype");
+}
+
+:root {
+  --body-font-size: 16px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+html,
+body {
+  font-size: var(--body-font-size);
+  min-height: 100vh;
+  background-color: rgb(23, 31, 38);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  position: relative;
+  flex-direction: row;
+  width: 1272px;
+  margin-top: 24px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 2.52px;
+  margin-right: 115px;
+  font-family: "Poppins-Medium";
+}
+
+.navbar-text {
+  color: #868686;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-family: "Poppins-Light";
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.navbar-search {
+  background-color: #374151;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 360px;
+  height: 48px;
+  border-radius: 37px;
+  padding-left: 15px;
+  margin-left: auto;
+  font-family: "Poppins-Light";
+  border: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 1168px;
+}
+
+.text-main {
+  color: white;
+  font-size: 32px;
+  font-family: "Poppins-Medium";
+}
+
+.text-sub {
+  color: #868686;
+  font-size: 22px;
+  font-family: "Poppins-Light";
+}
+
+.carousel {
+  width: 1170px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background-image: url("src/images/spy_carousel\ 1.svg");
+  box-shadow: 800px 0 200px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  cursor: pointer;
+}
+
+.carousel-header {
+  width: 586px;
+  height: 161px;
+  margin-top: 200px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carousel-title {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Poppins-Medium";
+}
+
+.carousel-text {
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins-Light";
+}
+
+.release {
+  width: 1170px;
+  height: 361px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.release-header {
+  color: white;
+  font-size: 36px;
+  font-family: "Poppins-Medium";
+}
+.release-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 30px;
+}
+
+.release-card {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 284px;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.release-card-image {
+  display: flex;
+  height: 255px;
+  width: 170px;
+  justify-content: center;
+  box-shadow: 0 -40px 40px 10px rgb(23, 31, 38) inset;
+}
+
+.release-card-image-onepiece {
+  background-image: url("src/images/One-piece\ 1.svg");
+}
+
+.release-card-image-boruto {
+  background-image: url("src/images/boruto-naruto-next-generations\ 1.svg");
+}
+
+.release-card-image-spy {
+  background-image: url("src/images/spy_card\ 1.svg");
+}
+
+.release-card-image-aot {
+  background-image: url("src/images/attackontitan\ 1.svg");
+}
+
+.release-card-image-tsubasa {
+  background-image: url("src/images/captsu_card\ 1.svg");
+}
+
+.release-card-image-aoashi {
+  background-image: url("src/images/aoashi_card\ 1.svg");
+}
+
+.release-card-episode {
+  display: flex;
+  color: white;
+  font-family: "Poppins-Light";
+  margin-top: 220px;
+  font-size: 16px;
+}
+
+.release-card-title {
+  display: flex;
+  color: white;
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 15px;
+  margin-left: 15px;
+}
